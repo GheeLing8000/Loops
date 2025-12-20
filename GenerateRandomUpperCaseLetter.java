@@ -1,0 +1,141 @@
+import javax.swing.*;
+
+public class GenerateRandomUpperCaseLetter {
+    public static void main(String[] args){
+        //Generate random numbers lower than 100
+        int numberBound = (int)(Math.random() * 100);
+        //Check the numbers to between 65 and 95
+        if (numberBound >= 65 && numberBound <= 90){
+
+            char upperCaseLetter = (char)numberBound;
+            System.out.println(numberBound + " is between 65 and 90, it generates an uppercase letter " + upperCaseLetter);
+        }
+        else
+            System.out.println(numberBound + " is not between 65 and 90, it does not generate a uppercase letter, try again");
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
