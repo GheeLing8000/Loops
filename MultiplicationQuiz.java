@@ -29,6 +29,8 @@ public class MultiplicationQuiz {
                             + " * " + number2 + " = " + (number1 * number2));
                 //Increase the count
                 count++;
+                output += "\n" + number1 + "*" + number2 + "=" + answer
+                        + (( number1 * number2 == answer) ? " correct" : " wrong");
             }
             else
                 System.out.println("The numbers generated this round are " +
