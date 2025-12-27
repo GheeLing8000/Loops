@@ -1,7 +1,7 @@
 public class ConversionFromMilesToKM {
     public static void main(String[] args) {
         final double MILES_TO_KILOMETERS = 1.609;
-        System.out.println("Miles     Kilometers     Kilometers      Miles");
+        System.out.println("Miles     Kilometers     Kilometers     Miles");
         for (int miles = 1, kilometers = 20; miles <= 10 && kilometers <= 65; miles++, kilometers+=5)
         {
             double converted_Kilometers = MILES_TO_KILOMETERS * miles;
